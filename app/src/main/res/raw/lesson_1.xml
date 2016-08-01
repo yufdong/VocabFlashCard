@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="Lesson 1">
+    <word>
+        <front>English (language)</front>
+        <back>えいご</back>
+    </word>
+    <word>
+        <front>student</front>
+        <back>がくせい</back>
+    </word>
+    <word>
+        <front>high school</front>
+        <back>こうこう</back>
+    </word>
+    <word>
+        <front>P.M.</front>
+        <back>ごご</back>
+    </word>
+    <word>
+        <front>A.M.</front>
+        <back>ごぜん</back>
+    </word>
+    <word>
+        <front>major</front>
+        <back>せんこう</back>
+    </word>
+    <word>
+        <front>teacher</front>
+        <back>せんせい</back>
+    </word>
+    <word>
+        <front>college; university</front>
+        <back>だいがく</back>
+    </word>
+    <word>
+        <front>telephone</front>
+        <back>でんわ</back>
+    </word>
+    <word>
+        <front>friend</front>
+        <back>ともだち</back>
+    </word>
+    <word>
+        <front>name</front>
+        <back>なまえ</back>
+    </word>
+    <word>
+        <front>Japan</front>
+        <back>にほん</back>
+    </word>
+    <word>
+        <front>number</front>
+        <back>ばんごう</back>
+    </word>
+    <word>
+        <front>international student</front>
+        <back>りゅうがくせい</back>
+    </word>
+    <word>
+        <front>U.S.A.</front>
+        <back>アメリカ（あめりか）</back>
+    </word>
+    <word>
+        <front>Britain</front>
+        <back>イギリス（いぎりす）</back>
+    </word>
+    <word>
+        <front>Korea</front>
+        <back>かんこく</back>
+    </word>
+    <word>
+        <front>China</front>
+        <back>ちゅうごく</back>
+    </word>
+    <word>
+        <front>science</front>
+        <back>かがく</back>
+    </word>
+    <word>
+        <front>economics</front>
+        <back>けいざい</back>
+    </word>
+    <word>
+        <front>anthropology</front>
+        <back>じんるいがく</back>
+    </word>
+    <word>
+        <front>politics</front>
+        <back>せいじ</back>
+    </word>
+    <word>
+        <front>business</front>
+        <back>ビジネス（びじねす）</back>
+    </word>
+    <word>
+        <front>literature</front>
+        <back>ぶんがく</back>
+    </word>
+    <word>
+        <front>history</front>
+        <back>れきし</back>
+    </word>
+    <word>
+        <front>job; work; occupation</front>
+        <back>しごと</back>
+    </word>
+    <word>
+        <front>doctor</front>
+        <back>いしゃ</back>
+    </word>
+    <word>
+        <front>office worker</front>
+        <back>かいしゃいん</back>
+    </word>
+    <word>
+        <front>high school student</front>
+        <back>こうこうせい</back>
+    </word>
+    <word>
+        <front>housewife</front>
+        <back>しゅふ</back>
+    </word>
+    <word>
+        <front>graduate student</front>
+        <back>だいがくいんせい</back>
+    </word>
+    <word>
+        <front>college student</front>
+        <back>だいがくせい</back>
+    </word>
+    <word>
+        <front>lawyer</front>
+        <back>べんごし</back>
+    </word>
+    <word>
+        <front>mother</front>
+        <back>おかあさん</back>
+    </word>
+    <word>
+        <front>father</front>
+        <back>おとうさん</back>
+    </word>
+    <word>
+        <front>older sister</front>
+        <back>おねえさん</back>
+    </word>
+    <word>
+        <front>older brother</front>
+        <back>おにいさん</back>
+    </word>
+    <word>
+        <front>younger sister</front>
+        <back>いもうと</back>
+    </word>
+    <word>
+        <front>younger brother</front>
+        <back>おとうと</back>
+    </word>
+</set>

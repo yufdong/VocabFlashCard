@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".activity.SetPickerActivity">
+    <item android:id="@+id/action_load_xml" android:title="Load XML"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_reset" android:title="Reset Database"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

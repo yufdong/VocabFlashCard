@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="Lesson 4">
+    <word>
+        <front>part-time job</front>
+        <back>アルバイト（あるばいと）</back>
+    </word>
+    <word>
+        <front>shopping</front>
+        <back>かいもの</back>
+    </word>
+    <word>
+        <front>class</front>
+        <back>クラス（くらす）</back>
+    </word>
+    <word>
+        <front>you</front>
+        <back>あなた</back>
+    </word>
+    <word>
+        <front>chair</front>
+        <back>いす</back>
+    </word>
+    <word>
+        <front>dog</front>
+        <back>いぬ</back>
+    </word>
+    <word>
+        <front>souvenir</front>
+        <back>おみやげ</back>
+    </word>
+    <word>
+        <front>child</front>
+        <back>こども</back>
+    </word>
+    <word>
+        <front>rice; meal</front>
+        <back>ごはん</back>
+    </word>
+    <word>
+        <front>picture; photograph</front>
+        <back>しゃしん</back>
+    </word>
+    <word>
+        <front>desk</front>
+        <back>つくえ</back>
+    </word>
+    <word>
+        <front>letter</front>
+        <back>てがみ</back>
+    </word>
+    <word>
+        <front>cat</front>
+        <back>ねこ</back>
+    </word>
+    <word>
+        <front>bread</front>
+        <back>パン（ぱん）</back>
+    </word>
+    <word>
+        <front>person</front>
+        <back>ひと</back>
+    </word>
+    <word>
+        <front>e-mail</front>
+        <back>メイル（めいる）</back>
+    </word>
+    <word>
+        <front>temple</front>
+        <back>おてら</back>
+    </word>
+    <word>
+        <front>park</front>
+        <back>こうえん</back>
+    </word>
+    <word>
+        <front>supermarket</front>
+        <back>スーパー（すうぱあ）</back>
+    </word>
+    <word>
+        <front>department store</front>
+        <back>デパート（でぱあと）</back>
+    </word>
+    <word>
+        <front>bus stop</front>
+        <back>バスてい</back>
+    </word>
+    <word>
+        <front>hospital</front>
+        <back>びょういん</back>
+    </word>
+    <word>
+        <front>hotel</front>
+        <back>ホテル（ほてる）</back>
+    </word>
+    <word>
+        <front>bookstore</front>
+        <back>ほんや</back>
+    </word>
+    <word>
+        <front>town; city</front>
+        <back>まち</back>
+    </word>
+    <word>
+        <front>restaurant</front>
+        <back>レストラン（れすとらん）</back>
+    </word>
+    <word>
+        <front>yesterday</front>
+        <back>きのう</back>
+    </word>
+    <word>
+        <front>...hours</front>
+        <back>～じかん</back>
+    </word>
+    <word>
+        <front>one hour</front>
+        <back>いちじかん</back>
+    </word>
+    <word>
+        <front>last week</front>
+        <back>せんしゅう</back>
+    </word>
+    <word>
+        <front>when...; at the time of...</front>
+        <back>とき</back>
+    </word>
+    <word>
+        <front>Monday</front>
+        <back>げつようび</back>
+    </word>
+    <word>
+        <front>Tuesday</front>
+        <back>かようび</back>
+    </word>
+    <word>
+        <front>Wednesday</front>
+        <back>すいようび</back>
+    </word>
+    <word>
+        <front>Thursday</front>
+        <back>もくようび</back>
+    </word>
+    <word>
+        <front>Friday</front>
+        <back>きんようび</back>
+    </word>
+    <word>
+        <front>to meet; to see (a person)</front>
+        <back>あう</back>
+    </word>
+    <word>
+        <front>ther is...</front>
+        <back>ある</back>
+    </word>
+    <word>
+        <front>to buy</front>
+        <back>かう</back>
+    </word>
+    <word>
+        <front>to write</front>
+        <back>かく</back>
+    </word>
+    <word>
+        <front>to take (a picture)</front>
+        <back>とる</back>
+    </word>
+    <word>
+        <front>to wait</front>
+        <back>まつ</back>
+    </word>
+    <word>
+        <front>to understand</front>
+        <back>わかる</back>
+    </word>
+    <word>
+        <front>(a person) is in...; stays at...</front>
+        <back>いる</back>
+    </word>
+    <word>
+        <front>about (approx measurement)</front>
+        <back>～ぐらい</back>
+    </word>
+    <word>
+        <front>I'm sorry</front>
+        <back>ごめんなさい</back>
+    </word>
+    <word>
+        <front>so; therefore</front>
+        <back>だから</back>
+    </word>
+    <word>
+        <front>many; a lot</front>
+        <back>たくさん</back>
+    </word>
+    <word>
+        <front>why</front>
+        <back>どうして</back>
+    </word>
+    <word>
+        <front>alone</front>
+        <back>ひとりで</back>
+    </word>
+    <word>
+        <front>right</front>
+        <back>みぎ</back>
+    </word>
+    <word>
+        <front>left</front>
+        <back>ひだり</back>
+    </word>
+    <word>
+        <front>front</front>
+        <back>まえ</back>
+    </word>
+    <word>
+        <front>back</front>
+        <back>うしろ</back>
+    </word>
+    <word>
+        <front>inside</front>
+        <back>なか</back>
+    </word>
+    <word>
+        <front>on</front>
+        <back>うえ</back>
+    </word>
+    <word>
+        <front>under</front>
+        <back>した</back>
+    </word>
+    <word>
+        <front>near; nearby</front>
+        <back>ちかく</back>
+    </word>
+    <word>
+        <front>next</front>
+        <back>となり</back>
+    </word>
+    <word>
+        <front>between</front>
+        <back>あいだ</back>
+    </word>
+</set>

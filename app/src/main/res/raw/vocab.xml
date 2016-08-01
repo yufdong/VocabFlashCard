@@ -1,0 +1,1313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="Vocabulary">
+    <!--Greetings-->
+    <word>
+        <front>Good morning</front>
+        <back>おはよう</back>
+    </word>
+    <word>
+        <front>Good morning (polite)</front>
+        <back>おはよう　ごさいます</back>
+    </word>
+    <word>
+        <front>Good afternoon</front>
+        <back>こんにちは</back>
+    </word>
+    <word>
+        <front>Good evening</front>
+        <back>こんばんは</back>
+    </word>
+    <word>
+        <front>Good-bye</front>
+        <back>さようなら</back>
+    </word>
+    <word>
+        <front>Good night</front>
+        <back>おやすみ{なさい}</back>
+    </word>
+    <word>
+        <front>Thank you</front>
+        <back>ありがとう</back>
+    </word>
+    <word>
+        <front>Thank you (polite)</front>
+        <back>ありがとう　ございます</back>
+    </word>
+    <word>
+        <front>Excuse me; I'm sorry</front>
+        <back>すみません</back>
+    </word>
+    <word>
+        <front>No; Not at all</front>
+        <back>いいえ</back>
+    </word>
+    <word>
+        <front>I'll go and come back</front>
+        <back>いってきます</back>
+    </word>
+    <word>
+        <front>Please go and come back</front>
+        <back>いってらっしゃい</back>
+    </word>
+    <word>
+        <front>I'm home</front>
+        <back>ただいま</back>
+    </word>
+    <word>
+        <front>Welcome home</front>
+        <back>おかえり{なさい}</back>
+    </word>
+    <word>
+        <front>Thank you for the meal (before eating)</front>
+        <back>いただきます</back>
+    </word>
+    <word>
+        <front>Thank you for the meal (after eating)</front>
+        <back>ごちそうさま{でした}</back>
+    </word>
+    <word>
+        <front>How do you do?</front>
+        <back>はじめまして</back>
+    </word>
+    <word>
+        <front>Nice to meet you</front>
+        <back>よろしく　おねがいします</back>
+    </word>
+
+    <!--Lesson 1-->
+    <word>
+        <front>English (language)</front>
+        <back>えいご</back>
+    </word>
+    <word>
+        <front>student</front>
+        <back>がくせい</back>
+    </word>
+    <word>
+        <front>high school</front>
+        <back>こうこう</back>
+    </word>
+    <word>
+        <front>P.M.</front>
+        <back>ごご</back>
+    </word>
+    <word>
+        <front>A.M.</front>
+        <back>ごぜん</back>
+    </word>
+    <word>
+        <front>major</front>
+        <back>せんこう</back>
+    </word>
+    <word>
+        <front>teacher</front>
+        <back>せんせい</back>
+    </word>
+    <word>
+        <front>college; university</front>
+        <back>だいがく</back>
+    </word>
+    <word>
+        <front>telephone</front>
+        <back>でんわ</back>
+    </word>
+    <word>
+        <front>friend</front>
+        <back>ともだち</back>
+    </word>
+    <word>
+        <front>name</front>
+        <back>なまえ</back>
+    </word>
+    <word>
+        <front>Japan</front>
+        <back>にほん</back>
+    </word>
+    <word>
+        <front>number</front>
+        <back>ばんごう</back>
+    </word>
+    <word>
+        <front>international student</front>
+        <back>りゅうがくせい</back>
+    </word>
+    <word>
+        <front>U.S.A.</front>
+        <back>アメリカ（あめりか）</back>
+    </word>
+    <word>
+        <front>Britain</front>
+        <back>イギリス（いぎりす）</back>
+    </word>
+    <word>
+        <front>Korea</front>
+        <back>かんこく</back>
+    </word>
+    <word>
+        <front>China</front>
+        <back>ちゅうごく</back>
+    </word>
+    <word>
+        <front>science</front>
+        <back>かがく</back>
+    </word>
+    <word>
+        <front>economics</front>
+        <back>けいざい</back>
+    </word>
+    <word>
+        <front>anthropology</front>
+        <back>じんるいがく</back>
+    </word>
+    <word>
+        <front>politics</front>
+        <back>せいじ</back>
+    </word>
+    <word>
+        <front>business</front>
+        <back>ビジネス（びじねす）</back>
+    </word>
+    <word>
+        <front>literature</front>
+        <back>ぶんがく</back>
+    </word>
+    <word>
+        <front>history</front>
+        <back>れきし</back>
+    </word>
+    <word>
+        <front>job; work; occupation</front>
+        <back>しごと</back>
+    </word>
+    <word>
+        <front>doctor</front>
+        <back>いしゃ</back>
+    </word>
+    <word>
+        <front>office worker</front>
+        <back>かいしゃいん</back>
+    </word>
+    <word>
+        <front>high school student</front>
+        <back>こうこうせい</back>
+    </word>
+    <word>
+        <front>housewife</front>
+        <back>しゅふ</back>
+    </word>
+    <word>
+        <front>graduate student</front>
+        <back>だいがくいんせい</back>
+    </word>
+    <word>
+        <front>college student</front>
+        <back>だいがくせい</back>
+    </word>
+    <word>
+        <front>lawyer</front>
+        <back>べんごし</back>
+    </word>
+    <word>
+        <front>mother</front>
+        <back>おかあさん</back>
+    </word>
+    <word>
+        <front>father</front>
+        <back>おとうさん</back>
+    </word>
+    <word>
+        <front>older sister</front>
+        <back>おねえさん</back>
+    </word>
+    <word>
+        <front>older brother</front>
+        <back>おにいさん</back>
+    </word>
+    <word>
+        <front>younger sister</front>
+        <back>いもうと</back>
+    </word>
+    <word>
+        <front>younger brother</front>
+        <back>おとうと</back>
+    </word>
+
+    <!--Lesson 2-->
+    <word>
+        <front>this one</front>
+        <back>これ</back>
+    </word>
+    <word>
+        <front>that one</front>
+        <back>それ</back>
+    </word>
+    <word>
+        <front>that one (over there)</front>
+        <back>あれ</back>
+    </word>
+    <word>
+        <front>which one</front>
+        <back>どれ</back>
+    </word>
+    <word>
+        <front>this...</front>
+        <back>この</back>
+    </word>
+    <word>
+        <front>that...</front>
+        <back>その</back>
+    </word>
+    <word>
+        <front>that...(over there)</front>
+        <back>あの</back>
+    </word>
+    <word>
+        <front>which...</front>
+        <back>どの</back>
+    </word>
+    <word>
+        <front>here</front>
+        <back>ここ</back>
+    </word>
+    <word>
+        <front>there</front>
+        <back>そこ</back>
+    </word>
+    <word>
+        <front>over there</front>
+        <back>あそこ</back>
+    </word>
+    <word>
+        <front>where</front>
+        <back>どこ</back>
+    </word>
+    <word>
+        <front>who</front>
+        <back>だれ</back>
+    </word>
+    <word>
+        <front>delicious</front>
+        <back>おいしい</back>
+    </word>
+    <word>
+        <front>fish</front>
+        <back>さかな</back>
+    </word>
+    <word>
+        <front>pork cutlet</front>
+        <back>とんかつ</back>
+    </word>
+    <word>
+        <front>meat</front>
+        <back>にく</back>
+    </word>
+    <word>
+        <front>menu</front>
+        <back>メニュー（めにゅう）</back>
+    </word>
+    <word>
+        <front>vegetable</front>
+        <back>やさい</back>
+    </word>
+    <word>
+        <front>pencil</front>
+        <back>えんぴつ</back>
+    </word>
+    <word>
+        <front>umbrella</front>
+        <back>かさ</back>
+    </word>
+    <word>
+        <front>bag</front>
+        <back>かばん</back>
+    </word>
+    <word>
+        <front>shoes</front>
+        <back>くつ</back>
+    </word>
+    <word>
+        <front>wallet</front>
+        <back>さいふ</back>
+    </word>
+    <word>
+        <front>jeans</front>
+        <back>ジーンズ（じいんず）</back>
+    </word>
+    <word>
+        <front>dictionary</front>
+        <back>じしょ</back>
+    </word>
+    <word>
+        <front>bicycle</front>
+        <back>じてんしゃ</back>
+    </word>
+    <word>
+        <front>newspaper</front>
+        <back>しんぶん</back>
+    </word>
+    <word>
+        <front>T-shirt</front>
+        <back>Tシャツ（てぃいしゃつ）</back>
+    </word>
+    <word>
+        <front>watch; clock</front>
+        <back>とけい</back>
+    </word>
+    <word>
+        <front>notebook</front>
+        <back>ノート（のおと）</back>
+    </word>
+    <word>
+        <front>pen</front>
+        <back>ペン（ぺん）</back>
+    </word>
+    <word>
+        <front>hat; cap</front>
+        <back>ぼうし</back>
+    </word>
+    <word>
+        <front>book</front>
+        <back>ほん</back>
+    </word>
+    <word>
+        <front>cafe</front>
+        <back>きっさてん</back>
+    </word>
+    <word>
+        <front>bank</front>
+        <back>ぎんこう</back>
+    </word>
+    <word>
+        <front>toilet; restroom</front>
+        <back>トイレ（といれ）</back>
+    </word>
+    <word>
+        <front>library</front>
+        <back>としょかん</back>
+    </word>
+    <word>
+        <front>post office</front>
+        <back>ゆうびんきょく</back>
+    </word>
+    <word>
+        <front>how much</front>
+        <back>いくら</back>
+    </word>
+    <word>
+        <front>expensive</front>
+        <back>たかい</back>
+    </word>
+    <word>
+        <front>welcome (to our store)</front>
+        <back>いらっしゃいませ</back>
+    </word>
+    <word>
+        <front>..., please.</front>
+        <back>｛を｝おねがいします</back>
+    </word>
+    <word>
+        <front>Please give me...</front>
+        <back>｛を｝ください</back>
+    </word>
+    <word>
+        <front>then...; if that is the case, ...</front>
+        <back>じゃあ</back>
+    </word>
+    <word>
+        <front>Please; Here it is</front>
+        <back>どうぞ</back>
+    </word>
+    <word>
+        <front>Thank you</front>
+        <back>どうも</back>
+    </word>
+
+    <!--Lesson 3-->
+    <word>
+        <front>movie</front>
+        <back>えいが</back>
+    </word>
+    <word>
+        <front>music</front>
+        <back>おんがく</back>
+    </word>
+    <word>
+        <front>magazine</front>
+        <back>ざっし</back>
+    </word>
+    <word>
+        <front>sports</front>
+        <back>スポーツ（すぽうつ）</back>
+    </word>
+    <word>
+        <front>date (romantic)</front>
+        <back>デート（でいと）</back>
+    </word>
+    <word>
+        <front>tennis</front>
+        <back>テニス（てにす）</back>
+    </word>
+    <word>
+        <front>TV</front>
+        <back>テレビ（てれび）</back>
+    </word>
+    <word>
+        <front>ice cream</front>
+        <back>アイスクリーム（あいすくりいむ）</back>
+    </word>
+    <word>
+        <front>breakfast</front>
+        <back>あさごはん</back>
+    </word>
+    <word>
+        <front>sake; alcohol</front>
+        <back>おさけ</back>
+    </word>
+    <word>
+        <front>green tea</front>
+        <back>おちゃ</back>
+    </word>
+    <word>
+        <front>coffee</front>
+        <back>コーヒー（こうひい）</back>
+    </word>
+    <word>
+        <front>dinner</front>
+        <back>ばんごはん</back>
+    </word>
+    <word>
+        <front>hamburger</front>
+        <back>ハンバーガー（はんばあがあ）</back>
+    </word>
+    <word>
+        <front>lunch</front>
+        <back>ひるごはん</back>
+    </word>
+    <word>
+        <front>water</front>
+        <back>みず</back>
+    </word>
+    <word>
+        <front>home; house</front>
+        <back>いえ</back>
+    </word>
+    <word>
+        <front>home; house; my place</front>
+        <back>うち</back>
+    </word>
+    <word>
+        <front>school</front>
+        <back>がっこう</back>
+    </word>
+    <word>
+        <front>morning</front>
+        <back>あさ</back>
+    </word>
+    <word>
+        <front>tomorrow</front>
+        <back>あした</back>
+    </word>
+    <word>
+        <front>when</front>
+        <back>いつ</back>
+    </word>
+    <word>
+        <front>today</front>
+        <back>きょう</back>
+    </word>
+    <word>
+        <front>at about...</front>
+        <back>～ごろ</back>
+    </word>
+    <word>
+        <front>tonight</front>
+        <back>こんばん</back>
+    </word>
+    <word>
+        <front>weekend</front>
+        <back>しゅうまつ</back>
+    </word>
+    <word>
+        <front>Saturday</front>
+        <back>どようび</back>
+    </word>
+    <word>
+        <front>Sunday</front>
+        <back>にちようび</back>
+    </word>
+    <word>
+        <front>every day</front>
+        <back>まいにち</back>
+    </word>
+    <word>
+        <front>every night</front>
+        <back>まいばん</back>
+    </word>
+    <word>
+        <front>to go</front>
+        <back>いく</back>
+    </word>
+    <word>
+        <front>to go back; to return</front>
+        <back>がえる</back>
+    </word>
+    <word>
+        <front>to listen; to hear</front>
+        <back>きく</back>
+    </word>
+    <word>
+        <front>to drink</front>
+        <back>のむ</back>
+    </word>
+    <word>
+        <front>to speak; to talk</front>
+        <back>はなす</back>
+    </word>
+    <word>
+        <front>to read</front>
+        <back>よむ</back>
+    </word>
+    <word>
+        <front>to get up</front>
+        <back>おきる</back>
+    </word>
+    <word>
+        <front>to eat</front>
+        <back>たべる</back>
+    </word>
+    <word>
+        <front>to sleep; to go to sleep</front>
+        <back>ねる</back>
+    </word>
+    <word>
+        <front>to see; to look at; to watch</front>
+        <back>みる</back>
+    </word>
+    <word>
+        <front>to come</front>
+        <back>くる</back>
+    </word>
+    <word>
+        <front>to do</front>
+        <back>する</back>
+    </word>
+    <word>
+        <front>to study</front>
+        <back>べんきょうする</back>
+    </word>
+    <word>
+        <front>good</front>
+        <back>いい</back>
+    </word>
+    <word>
+        <front>early</front>
+        <back>はやい</back>
+    </word>
+    <word>
+        <front>not much</front>
+        <back>あまり</back>
+    </word>
+    <word>
+        <front>not at all</front>
+        <back>ぜんぜｎ</back>
+    </word>
+    <word>
+        <front>usually</front>
+        <back>たいでい</back>
+    </word>
+    <word>
+        <front>a little</front>
+        <back>ちょっと</back>
+    </word>
+    <word>
+        <front>sometimes</front>
+        <back>ときどき</back>
+    </word>
+    <word>
+        <front>often; much</front>
+        <back>よく</back>
+    </word>
+    <word>
+        <front>That's right; Let me see.</front>
+        <back>そうですね</back>
+    </word>
+    <word>
+        <front>but</front>
+        <back>でも</back>
+    </word>
+    <word>
+        <front>How about...?; How is...?</front>
+        <back>どうですか</back>
+    </word>
+
+    <!--Lesson 4-->
+    <word>
+        <front>part-time job</front>
+        <back>アルバイト（あるばいと）</back>
+    </word>
+    <word>
+        <front>shopping</front>
+        <back>かいもの</back>
+    </word>
+    <word>
+        <front>class</front>
+        <back>クラス（くらす）</back>
+    </word>
+    <word>
+        <front>you</front>
+        <back>あなた</back>
+    </word>
+    <word>
+        <front>chair</front>
+        <back>いす</back>
+    </word>
+    <word>
+        <front>dog</front>
+        <back>いぬ</back>
+    </word>
+    <word>
+        <front>souvenir</front>
+        <back>おみやげ</back>
+    </word>
+    <word>
+        <front>child</front>
+        <back>こども</back>
+    </word>
+    <word>
+        <front>rice; meal</front>
+        <back>ごはん</back>
+    </word>
+    <word>
+        <front>picture; photograph</front>
+        <back>しゃしん</back>
+    </word>
+    <word>
+        <front>desk</front>
+        <back>つくえ</back>
+    </word>
+    <word>
+        <front>letter</front>
+        <back>てがみ</back>
+    </word>
+    <word>
+        <front>cat</front>
+        <back>ねこ</back>
+    </word>
+    <word>
+        <front>bread</front>
+        <back>パン（ぱん）</back>
+    </word>
+    <word>
+        <front>person</front>
+        <back>ひと</back>
+    </word>
+    <word>
+        <front>e-mail</front>
+        <back>メイル（めいる）</back>
+    </word>
+    <word>
+        <front>temple</front>
+        <back>おてら</back>
+    </word>
+    <word>
+        <front>park</front>
+        <back>こうえん</back>
+    </word>
+    <word>
+        <front>supermarket</front>
+        <back>スーパー（すうぱあ）</back>
+    </word>
+    <word>
+        <front>department store</front>
+        <back>デパート（でぱあと）</back>
+    </word>
+    <word>
+        <front>bus stop</front>
+        <back>バスてい</back>
+    </word>
+    <word>
+        <front>hospital</front>
+        <back>びょういん</back>
+    </word>
+    <word>
+        <front>hotel</front>
+        <back>ホテル（ほてる）</back>
+    </word>
+    <word>
+        <front>bookstore</front>
+        <back>ほんや</back>
+    </word>
+    <word>
+        <front>town; city</front>
+        <back>まち</back>
+    </word>
+    <word>
+        <front>restaurant</front>
+        <back>レストラン（れすとらん）</back>
+    </word>
+    <word>
+        <front>yesterday</front>
+        <back>きのう</back>
+    </word>
+    <word>
+        <front>...hours</front>
+        <back>～じかん</back>
+    </word>
+    <word>
+        <front>one hour</front>
+        <back>いちじかん</back>
+    </word>
+    <word>
+        <front>last week</front>
+        <back>せんしゅう</back>
+    </word>
+    <word>
+        <front>when...; at the time of...</front>
+        <back>とき</back>
+    </word>
+    <word>
+        <front>Monday</front>
+        <back>げつようび</back>
+    </word>
+    <word>
+        <front>Tuesday</front>
+        <back>かようび</back>
+    </word>
+    <word>
+        <front>Wednesday</front>
+        <back>すいようび</back>
+    </word>
+    <word>
+        <front>Thursday</front>
+        <back>もくようび</back>
+    </word>
+    <word>
+        <front>Friday</front>
+        <back>きんようび</back>
+    </word>
+    <word>
+        <front>to meet; to see (a person)</front>
+        <back>あう</back>
+    </word>
+    <word>
+        <front>ther is...</front>
+        <back>ある</back>
+    </word>
+    <word>
+        <front>to buy</front>
+        <back>かう</back>
+    </word>
+    <word>
+        <front>to write</front>
+        <back>かく</back>
+    </word>
+    <word>
+        <front>to take (a picture)</front>
+        <back>とる</back>
+    </word>
+    <word>
+        <front>to wait</front>
+        <back>まつ</back>
+    </word>
+    <word>
+        <front>to understand</front>
+        <back>わかる</back>
+    </word>
+    <word>
+        <front>(a person) is in...; stays at...</front>
+        <back>いる</back>
+    </word>
+    <word>
+        <front>about (approx measurement)</front>
+        <back>～ぐらい</back>
+    </word>
+    <word>
+        <front>I'm sorry</front>
+        <back>ごめんなさい</back>
+    </word>
+    <word>
+        <front>so; therefore</front>
+        <back>だから</back>
+    </word>
+    <word>
+        <front>many; a lot</front>
+        <back>たくさん</back>
+    </word>
+    <word>
+        <front>why</front>
+        <back>どうして</back>
+    </word>
+    <word>
+        <front>alone</front>
+        <back>ひとりで</back>
+    </word>
+    <word>
+        <front>right</front>
+        <back>みぎ</back>
+    </word>
+    <word>
+        <front>left</front>
+        <back>ひだり</back>
+    </word>
+    <word>
+        <front>front</front>
+        <back>まえ</back>
+    </word>
+    <word>
+        <front>back</front>
+        <back>うしろ</back>
+    </word>
+    <word>
+        <front>inside</front>
+        <back>なか</back>
+    </word>
+    <word>
+        <front>on</front>
+        <back>うえ</back>
+    </word>
+    <word>
+        <front>under</front>
+        <back>した</back>
+    </word>
+    <word>
+        <front>near; nearby</front>
+        <back>ちかく</back>
+    </word>
+    <word>
+        <front>next</front>
+        <back>となり</back>
+    </word>
+    <word>
+        <front>between</front>
+        <back>あいだ</back>
+    </word>
+
+    <!--Lesson 5-->
+    <word>
+        <front>sea</front>
+        <back>うみ</back>
+    </word>
+    <word>
+        <front>postal stamps</front>
+        <back>きって</back>
+    </word>
+    <word>
+        <front>ticket</front>
+        <back>きっぷ</back>
+    </word>
+    <word>
+        <front>surfing</front>
+        <back>サーフイン（さあふいん）</back>
+    </word>
+    <word>
+        <front>homework</front>
+        <back>しゅくだい</back>
+    </word>
+    <word>
+        <front>food</front>
+        <back>たべもの</back>
+    </word>
+    <word>
+        <front>birthday</front>
+        <back>たんじょうび</back>
+    </word>
+    <word>
+        <front>test</front>
+        <back>テスト（てすと）</back>
+    </word>
+    <word>
+        <front>weather</front>
+        <back>てんき</back>
+    </word>
+    <word>
+        <front>drink</front>
+        <back>のみもの</back>
+    </word>
+    <word>
+        <front>postcard</front>
+        <back>はがき</back>
+    </word>
+    <word>
+        <front>bus</front>
+        <back>バス（ばす）</back>
+    </word>
+    <word>
+        <front>airplane</front>
+        <back>ひこうき</back>
+    </word>
+    <word>
+        <front>room</front>
+        <back>へや</back>
+    </word>
+    <word>
+        <front>I (used by men)</front>
+        <back>ぼく</back>
+    </word>
+    <word>
+        <front>holiday; day off; absence</front>
+        <back>やすみ</back>
+    </word>
+    <word>
+        <front>travel</front>
+        <back>りょこう</back>
+    </word>
+    <word>
+        <front>new</front>
+        <back>あたらしい</back>
+    </word>
+    <word>
+        <front>hot(weather)</front>
+        <back>あつい</back>
+    </word>
+    <word>
+        <front>hot(thing)</front>
+        <back>あつい</back>
+    </word>
+    <word>
+        <front>busy (people/days)</front>
+        <back>いそがしい</back>
+    </word>
+    <word>
+        <front>large</front>
+        <back>おおきい</back>
+    </word>
+    <word>
+        <front>interesting; funny</front>
+        <back>おもしろい</back>
+    </word>
+    <word>
+        <front>good-looking</front>
+        <back>かっこいい</back>
+    </word>
+    <word>
+        <front>frightening</front>
+        <back>こわい</back>
+    </word>
+    <word>
+        <front>cold (weather, not used for things)</front>
+        <back>さむい</back>
+    </word>
+    <word>
+        <front>fun</front>
+        <back>たのしい</back>
+    </word>
+    <word>
+        <front>small</front>
+        <back>ちいさい</back>
+    </word>
+    <word>
+        <front>boring</front>
+        <back>つまらない</back>
+    </word>
+    <word>
+        <front>old (thing, not used for people)</front>
+        <back>ふるい</back>
+    </word>
+    <word>
+        <front>difficult</front>
+        <back>むずかしい</back>
+    </word>
+    <word>
+        <front>easy (problem); kind (person)</front>
+        <back>やさしい</back>
+    </word>
+    <word>
+        <front>inexpensive; cheap (thing)</front>
+        <back>やすい</back>
+    </word>
+    <word>
+        <front>disgusted with; to dislike</front>
+        <back>きらい（な）</back>
+    </word>
+    <word>
+        <front>beautiful; clean</front>
+        <back>きれい（な）</back>
+    </word>
+    <word>
+        <front>healthy; energetic</front>
+        <back>げんき（な）</back>
+    </word>
+    <word>
+        <front>quiet</front>
+        <back>しずか（な）</back>
+    </word>
+    <word>
+        <front>fond of; to like</front>
+        <back>すき（な）</back>
+    </word>
+    <word>
+        <front>to hate</front>
+        <back>だいきらい（な）</back>
+    </word>
+    <word>
+        <front>very fond of; to love</front>
+        <back>だいすき（な）</back>
+    </word>
+    <word>
+        <front>lively</front>
+        <back>にぎやか（な）</back>
+    </word>
+    <word>
+        <front>not busy; to have a lot of free time</front>
+        <back>ひま（な）</back>
+    </word>
+    <word>
+        <front>to swim</front>
+        <back>およぐ</back>
+    </word>
+    <word>
+        <front>to ask</front>
+        <back>きく</back>
+    </word>
+    <word>
+        <front>to ride; to board</front>
+        <back>のる</back>
+    </word>
+    <word>
+        <front>to do; to perform</front>
+        <back>やる</back>
+    </word>
+    <word>
+        <front>to go out</front>
+        <back>でかける</back>
+    </word>
+    <word>
+        <front>together</front>
+        <back>いっしょに</back>
+    </word>
+    <word>
+        <front>extremely</front>
+        <back>すごく</back>
+    </word>
+    <word>
+        <front>and then</front>
+        <back>それから</back>
+    </word>
+    <word>
+        <front>It's ok; not to worry</front>
+        <back>だいじょうぶ</back>
+    </word>
+    <word>
+        <front>very</front>
+        <back>とても</back>
+    </word>
+    <word>
+        <front>what kind of...</front>
+        <back>どんな</back>
+    </word>
+    <word>
+        <front>[counter for flat objects]</front>
+        <back>～まい</back>
+    </word>
+    <word>
+        <front>to (a place); as far as (a place); till (a time)</front>
+        <back>～まで</back>
+    </word>
+
+    <!--Lesson 6-->
+    <word>
+        <front>money</front>
+        <back>おかね</back>
+    </word>
+    <word>
+        <front>bath</front>
+        <back>おふろ</back>
+    </word>
+    <word>
+        <front>kanji</front>
+        <back>かんじ</back>
+    </word>
+    <word>
+        <front>textbook</front>
+        <back>きょうかしょ</back>
+    </word>
+    <word>
+        <front>this week</front>
+        <back>こんしゅう</back>
+    </word>
+    <word>
+        <front>CD</front>
+        <back>シーデイー</back>
+    </word>
+    <word>
+        <front>municipal hospital</front>
+        <back>しみんびょういん</back>
+    </word>
+    <word>
+        <front>shower</front>
+        <back>シャワー（しゃわあ）</back>
+    </word>
+    <word>
+        <front>next</front>
+        <back>つぎ</back>
+    </word>
+    <word>
+        <front>electricity</front>
+        <back>でんき</back>
+    </word>
+    <word>
+        <front>train</front>
+        <back>でんしゃ</back>
+    </word>
+    <word>
+        <front>baggage</front>
+        <back>にもつ</back>
+    </word>
+    <word>
+        <front>personal computer</front>
+        <back>パソコン（ぱそこん）</back>
+    </word>
+    <word>
+        <front>page</front>
+        <back>ページ（ぺいじ）</back>
+    </word>
+    <word>
+        <front>window</front>
+        <back>まど</back>
+    </word>
+    <word>
+        <front>night</front>
+        <back>よる</back>
+    </word>
+    <word>
+        <front>next week</front>
+        <back>らいしゅう</back>
+    </word>
+    <word>
+        <front>next year</front>
+        <back>らいねん</back>
+    </word>
+    <word>
+        <front>tough (situation)</front>
+        <back>たいへん（な）</back>
+    </word>
+    <word>
+        <front>to play; to spend time pleansantly</front>
+        <back>あそぶ</back>
+    </word>
+    <word>
+        <front>to hurry</front>
+        <back>いそぐ</back>
+    </word>
+    <word>
+        <front>to take a bath</front>
+        <back>おふろにはいる</back>
+    </word>
+    <word>
+        <front>to return (a thing)</front>
+        <back>かえす</back>
+    </word>
+    <word>
+        <front>to turn off; to erase</front>
+        <back>けす</back>
+    </word>
+    <word>
+        <front>to die</front>
+        <back>しぬ</back>
+    </word>
+    <word>
+        <front>to sit down</front>
+        <back>すわる</back>
+    </word>
+    <word>
+        <front>to stand up</front>
+        <back>たつ</back>
+    </word>
+    <word>
+        <front>to smoke</front>
+        <back>たばこをすう</back>
+    </word>
+    <word>
+        <front>to use</front>
+        <back>つかう</back>
+    </word>
+    <word>
+        <front>to help</front>
+        <back>てつだう</back>
+    </word>
+    <word>
+        <front>to enter</front>
+        <back>はいる</back>
+    </word>
+    <word>
+        <front>to carry; to hold</front>
+        <back>もつ</back>
+    </word>
+    <word>
+        <front>to be absent from; to rest</front>
+        <back>やすむ</back>
+    </word>
+    <word>
+        <front>to open (something)</front>
+        <back>あける</back>
+    </word>
+    <word>
+        <front>to teach; to instruct</front>
+        <back>おしえる</back>
+    </word>
+    <word>
+        <front>to get off</front>
+        <back>おりる</back>
+    </word>
+    <word>
+        <front>to borrow</front>
+        <back>かりる</back>
+    </word>
+    <word>
+        <front>to close (something)</front>
+        <back>しめる</back>
+    </word>
+    <word>
+        <front>to take a shower</front>
+        <back>シャワーをあびる</back>
+    </word>
+    <word>
+        <front>to turn on</front>
+        <back>つける</back>
+    </word>
+    <word>
+        <front>to make a phone call</front>
+        <back>でんわをかける</back>
+    </word>
+    <word>
+        <front>to forget; to leave behind</front>
+        <back>わすれる</back>
+    </word>
+    <word>
+        <front>to bring (a person)</front>
+        <back>つれてくる</back>
+    </word>
+    <word>
+        <front>to bring (a thing)</front>
+        <back>もってくる</back>
+    </word>
+    <word>
+        <front>later on</front>
+        <back>あとで</back>
+    </word>
+    <word>
+        <front>(do something) late</front>
+        <back>おそく</back>
+    </word>
+    <word>
+        <front>because...</front>
+        <back>～から</back>
+    </word>
+    <word>
+        <front>That woud be fine; that wouldn't be necessary</front>
+        <back>けっこうです</back>
+    </word>
+    <word>
+        <front>right away</front>
+        <back>すぐ</back>
+    </word>
+    <word>
+        <front>Really?</front>
+        <back>ほんとうですか</back>
+    </word>
+    <word>
+        <front>slowly; leisurely; unhurriedly</front>
+        <back>ゆっくり</back>
+    </word>
+
+</set>

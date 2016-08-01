@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="buttonPressed">#5c5658</color>
+    <color name="buttonUnpressed">#8b8185</color>
+    <color name="listItemDefault">#ffffff</color>
+    <color name="listItemImpact">#cfcbcb</color>
+    <color name="transparent">#00000000</color>
+    <color name="editIcon">#808080</color>
+</resources>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="Lesson 3">
+    <word>
+        <front>movie</front>
+        <back>えいが</back>
+    </word>
+    <word>
+        <front>music</front>
+        <back>おんがく</back>
+    </word>
+    <word>
+        <front>magazine</front>
+        <back>ざっし</back>
+    </word>
+    <word>
+        <front>sports</front>
+        <back>スポーツ（すぽうつ）</back>
+    </word>
+    <word>
+        <front>date (romantic)</front>
+        <back>デート（でいと）</back>
+    </word>
+    <word>
+        <front>tennis</front>
+        <back>テニス（てにす）</back>
+    </word>
+    <word>
+        <front>TV</front>
+        <back>テレビ（てれび）</back>
+    </word>
+    <word>
+        <front>ice cream</front>
+        <back>アイスクリーム（あいすくりいむ）</back>
+    </word>
+    <word>
+        <front>breakfast</front>
+        <back>あさごはん</back>
+    </word>
+    <word>
+        <front>sake; alcohol</front>
+        <back>おさけ</back>
+    </word>
+    <word>
+        <front>green tea</front>
+        <back>おちゃ</back>
+    </word>
+    <word>
+        <front>coffee</front>
+        <back>コーヒー（こうひい）</back>
+    </word>
+    <word>
+        <front>dinner</front>
+        <back>ばんごはん</back>
+    </word>
+    <word>
+        <front>hamburger</front>
+        <back>ハンバーガー（はんばあがあ）</back>
+    </word>
+    <word>
+        <front>lunch</front>
+        <back>ひるごはん</back>
+    </word>
+    <word>
+        <front>water</front>
+        <back>みず</back>
+    </word>
+    <word>
+        <front>home; house</front>
+        <back>いえ</back>
+    </word>
+    <word>
+        <front>home; house; my place</front>
+        <back>うち</back>
+    </word>
+    <word>
+        <front>school</front>
+        <back>がっこう</back>
+    </word>
+    <word>
+        <front>morning</front>
+        <back>あさ</back>
+    </word>
+    <word>
+        <front>tomorrow</front>
+        <back>あした</back>
+    </word>
+    <word>
+        <front>when</front>
+        <back>いつ</back>
+    </word>
+    <word>
+        <front>today</front>
+        <back>きょう</back>
+    </word>
+    <word>
+        <front>at about...</front>
+        <back>～ごろ</back>
+    </word>
+    <word>
+        <front>tonight</front>
+        <back>こんばん</back>
+    </word>
+    <word>
+        <front>weekend</front>
+        <back>しゅうまつ</back>
+    </word>
+    <word>
+        <front>Saturday</front>
+        <back>どようび</back>
+    </word>
+    <word>
+        <front>Sunday</front>
+        <back>にちようび</back>
+    </word>
+    <word>
+        <front>every day</front>
+        <back>まいにち</back>
+    </word>
+    <word>
+        <front>every night</front>
+        <back>まいばん</back>
+    </word>
+    <word>
+        <front>to go</front>
+        <back>いく</back>
+    </word>
+    <word>
+        <front>to go back; to return</front>
+        <back>がえる</back>
+    </word>
+    <word>
+        <front>to listen; to hear</front>
+        <back>きく</back>
+    </word>
+    <word>
+        <front>to drink</front>
+        <back>のむ</back>
+    </word>
+    <word>
+        <front>to speak; to talk</front>
+        <back>はなす</back>
+    </word>
+    <word>
+        <front>to read</front>
+        <back>よむ</back>
+    </word>
+    <word>
+        <front>to get up</front>
+        <back>おきる</back>
+    </word>
+    <word>
+        <front>to eat</front>
+        <back>たべる</back>
+    </word>
+    <word>
+        <front>to sleep; to go to sleep</front>
+        <back>ねる</back>
+    </word>
+    <word>
+        <front>to see; to look at; to watch</front>
+        <back>みる</back>
+    </word>
+    <word>
+        <front>to come</front>
+        <back>くる</back>
+    </word>
+    <word>
+        <front>to do</front>
+        <back>する</back>
+    </word>
+    <word>
+        <front>to study</front>
+        <back>べんきょうする</back>
+    </word>
+    <word>
+        <front>good</front>
+        <back>いい</back>
+    </word>
+    <word>
+        <front>early</front>
+        <back>はやい</back>
+    </word>
+    <word>
+        <front>not much</front>
+        <back>あまり</back>
+    </word>
+    <word>
+        <front>not at all</front>
+        <back>ぜんぜｎ</back>
+    </word>
+    <word>
+        <front>usually</front>
+        <back>たいでい</back>
+    </word>
+    <word>
+        <front>a little</front>
+        <back>ちょっと</back>
+    </word>
+    <word>
+        <front>sometimes</front>
+        <back>ときどき</back>
+    </word>
+    <word>
+        <front>often; much</front>
+        <back>よく</back>
+    </word>
+    <word>
+        <front>That's right; Let me see.</front>
+        <back>そうですね</back>
+    </word>
+    <word>
+        <front>but</front>
+        <back>でも</back>
+    </word>
+    <word>
+        <front>How about...?; How is...?</front>
+        <back>どうですか</back>
+    </word>
+</set>

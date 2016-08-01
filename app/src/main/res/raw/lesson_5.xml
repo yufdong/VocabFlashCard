@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="Lesson 5">
+    <word>
+        <front>sea</front>
+        <back>うみ</back>
+    </word>
+    <word>
+        <front>postal stamps</front>
+        <back>きって</back>
+    </word>
+    <word>
+        <front>ticket</front>
+        <back>きっぷ</back>
+    </word>
+    <word>
+        <front>surfing</front>
+        <back>サーフイン（さあふいん）</back>
+    </word>
+    <word>
+        <front>homework</front>
+        <back>しゅくだい</back>
+    </word>
+    <word>
+        <front>food</front>
+        <back>たべもの</back>
+    </word>
+    <word>
+        <front>birthday</front>
+        <back>たんじょうび</back>
+    </word>
+    <word>
+        <front>test</front>
+        <back>テスト（てすと）</back>
+    </word>
+    <word>
+        <front>weather</front>
+        <back>てんき</back>
+    </word>
+    <word>
+        <front>drink</front>
+        <back>のみもの</back>
+    </word>
+    <word>
+        <front>postcard</front>
+        <back>はがき</back>
+    </word>
+    <word>
+        <front>bus</front>
+        <back>バス（ばす）</back>
+    </word>
+    <word>
+        <front>airplane</front>
+        <back>ひこうき</back>
+    </word>
+    <word>
+        <front>room</front>
+        <back>へや</back>
+    </word>
+    <word>
+        <front>I (used by men)</front>
+        <back>ぼく</back>
+    </word>
+    <word>
+        <front>holiday; day off; absence</front>
+        <back>やすみ</back>
+    </word>
+    <word>
+        <front>travel</front>
+        <back>りょこう</back>
+    </word>
+    <word>
+        <front>new</front>
+        <back>あたらしい</back>
+    </word>
+    <word>
+        <front>hot(weather)</front>
+        <back>あつい</back>
+    </word>
+    <word>
+        <front>hot(thing)</front>
+        <back>あつい</back>
+    </word>
+    <word>
+        <front>busy (people/days)</front>
+        <back>いそがしい</back>
+    </word>
+    <word>
+        <front>large</front>
+        <back>おおきい</back>
+    </word>
+    <word>
+        <front>interesting; funny</front>
+        <back>おもしろい</back>
+    </word>
+    <word>
+        <front>good-looking</front>
+        <back>かっこいい</back>
+    </word>
+    <word>
+        <front>frightening</front>
+        <back>こわい</back>
+    </word>
+    <word>
+        <front>cold (weather, not used for things)</front>
+        <back>さむい</back>
+    </word>
+    <word>
+        <front>fun</front>
+        <back>たのしい</back>
+    </word>
+    <word>
+        <front>small</front>
+        <back>ちいさい</back>
+    </word>
+    <word>
+        <front>boring</front>
+        <back>つまらない</back>
+    </word>
+    <word>
+        <front>old (thing, not used for people)</front>
+        <back>ふるい</back>
+    </word>
+    <word>
+        <front>difficult</front>
+        <back>むずかしい</back>
+    </word>
+    <word>
+        <front>easy (problem); kind (person)</front>
+        <back>やさしい</back>
+    </word>
+    <word>
+        <front>inexpensive; cheap (thing)</front>
+        <back>やすい</back>
+    </word>
+    <word>
+        <front>disgusted with; to dislike</front>
+        <back>きらい（な）</back>
+    </word>
+    <word>
+        <front>beautiful; clean</front>
+        <back>きれい（な）</back>
+    </word>
+    <word>
+        <front>healthy; energetic</front>
+        <back>げんき（な）</back>
+    </word>
+    <word>
+        <front>quiet</front>
+        <back>しずか（な）</back>
+    </word>
+    <word>
+        <front>fond of; to like</front>
+        <back>すき（な）</back>
+    </word>
+    <word>
+        <front>to hate</front>
+        <back>だいきらい（な）</back>
+    </word>
+    <word>
+        <front>very fond of; to love</front>
+        <back>だいすき（な）</back>
+    </word>
+    <word>
+        <front>lively</front>
+        <back>にぎやか（な）</back>
+    </word>
+    <word>
+        <front>not busy; to have a lot of free time</front>
+        <back>ひま（な）</back>
+    </word>
+    <word>
+        <front>to swim</front>
+        <back>およぐ</back>
+    </word>
+    <word>
+        <front>to ask</front>
+        <back>きく</back>
+    </word>
+    <word>
+        <front>to ride; to board</front>
+        <back>のる</back>
+    </word>
+    <word>
+        <front>to do; to perform</front>
+        <back>やる</back>
+    </word>
+    <word>
+        <front>to go out</front>
+        <back>でかける</back>
+    </word>
+    <word>
+        <front>together</front>
+        <back>いっしょに</back>
+    </word>
+    <word>
+        <front>extremely</front>
+        <back>すごく</back>
+    </word>
+    <word>
+        <front>and then</front>
+        <back>それから</back>
+    </word>
+    <word>
+        <front>It's ok; not to worry</front>
+        <back>だいじょうぶ</back>
+    </word>
+    <word>
+        <front>very</front>
+        <back>とても</back>
+    </word>
+    <word>
+        <front>what kind of...</front>
+        <back>どんな</back>
+    </word>
+    <word>
+        <front>[counter for flat objects]</front>
+        <back>～まい</back>
+    </word>
+    <word>
+        <front>to (a place); as far as (a place); till (a time)</front>
+        <back>～まで</back>
+    </word>
+</set>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="Lesson 2">
+    <word>
+        <front>this one</front>
+        <back>これ</back>
+    </word>
+    <word>
+        <front>that one</front>
+        <back>それ</back>
+    </word>
+    <word>
+        <front>that one (over there)</front>
+        <back>あれ</back>
+    </word>
+    <word>
+        <front>which one</front>
+        <back>どれ</back>
+    </word>
+    <word>
+        <front>this...</front>
+        <back>この</back>
+    </word>
+    <word>
+        <front>that...</front>
+        <back>その</back>
+    </word>
+    <word>
+        <front>that...(over there)</front>
+        <back>あの</back>
+    </word>
+    <word>
+        <front>which...</front>
+        <back>どの</back>
+    </word>
+    <word>
+        <front>here</front>
+        <back>ここ</back>
+    </word>
+    <word>
+        <front>there</front>
+        <back>そこ</back>
+    </word>
+    <word>
+        <front>over there</front>
+        <back>あそこ</back>
+    </word>
+    <word>
+        <front>where</front>
+        <back>どこ</back>
+    </word>
+    <word>
+        <front>who</front>
+        <back>だれ</back>
+    </word>
+    <word>
+        <front>delicious</front>
+        <back>おいしい</back>
+    </word>
+    <word>
+        <front>fish</front>
+        <back>さかな</back>
+    </word>
+    <word>
+        <front>pork cutlet</front>
+        <back>とんかつ</back>
+    </word>
+    <word>
+        <front>meat</front>
+        <back>にく</back>
+    </word>
+    <word>
+        <front>menu</front>
+        <back>メニュー（めにゅう）</back>
+    </word>
+    <word>
+        <front>vegetable</front>
+        <back>やさい</back>
+    </word>
+    <word>
+        <front>pencil</front>
+        <back>えんぴつ</back>
+    </word>
+    <word>
+        <front>umbrella</front>
+        <back>かさ</back>
+    </word>
+    <word>
+        <front>bag</front>
+        <back>かばん</back>
+    </word>
+    <word>
+        <front>shoes</front>
+        <back>くつ</back>
+    </word>
+    <word>
+        <front>wallet</front>
+        <back>さいふ</back>
+    </word>
+    <word>
+        <front>jeans</front>
+        <back>ジーンズ（じいんず）</back>
+    </word>
+    <word>
+        <front>dictionary</front>
+        <back>じしょ</back>
+    </word>
+    <word>
+        <front>bicycle</front>
+        <back>じてんしゃ</back>
+    </word>
+    <word>
+        <front>newspaper</front>
+        <back>しんぶん</back>
+    </word>
+    <word>
+        <front>T-shirt</front>
+        <back>Tシャツ（てぃいしゃつ）</back>
+    </word>
+    <word>
+        <front>watch; clock</front>
+        <back>とけい</back>
+    </word>
+    <word>
+        <front>notebook</front>
+        <back>ノート（のおと）</back>
+    </word>
+    <word>
+        <front>pen</front>
+        <back>ペン（ぺん）</back>
+    </word>
+    <word>
+        <front>hat; cap</front>
+        <back>ぼうし</back>
+    </word>
+    <word>
+        <front>book</front>
+        <back>ほん</back>
+    </word>
+    <word>
+        <front>cafe</front>
+        <back>きっさてん</back>
+    </word>
+    <word>
+        <front>bank</front>
+        <back>ぎんこう</back>
+    </word>
+    <word>
+        <front>toilet; restroom</front>
+        <back>トイレ（といれ）</back>
+    </word>
+    <word>
+        <front>library</front>
+        <back>としょかん</back>
+    </word>
+    <word>
+        <front>post office</front>
+        <back>ゆうびんきょく</back>
+    </word>
+    <word>
+        <front>how much</front>
+        <back>いくら</back>
+    </word>
+    <word>
+        <front>expensive</front>
+        <back>たかい</back>
+    </word>
+    <word>
+        <front>welcome (to our store)</front>
+        <back>いらっしゃいませ</back>
+    </word>
+    <word>
+        <front>..., please.</front>
+        <back>｛を｝おねがいします</back>
+    </word>
+    <word>
+        <front>Please give me...</front>
+        <back>｛を｝ください</back>
+    </word>
+    <word>
+        <front>then...; if that is the case, ...</front>
+        <back>じゃあ</back>
+    </word>
+    <word>
+        <front>Please; Here it is</front>
+        <back>どうぞ</back>
+    </word>
+    <word>
+        <front>Thank you</front>
+        <back>どうも</back>
+    </word>
+</set>

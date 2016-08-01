@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set name="Greetings">
+    <word>
+        <front>Good morning</front>
+        <back>おはよう</back>
+    </word>
+    <word>
+        <front>Good morning (polite)</front>
+        <back>おはよう　ごさいます</back>
+    </word>
+    <word>
+        <front>Good afternoon</front>
+        <back>こんにちは</back>
+    </word>
+    <word>
+        <front>Good evening</front>
+        <back>こんばんは</back>
+    </word>
+    <word>
+        <front>Good-bye</front>
+        <back>さようなら</back>
+    </word>
+    <word>
+        <front>Good night</front>
+        <back>おやすみ{なさい}</back>
+    </word>
+    <word>
+        <front>Thank you</front>
+        <back>ありがとう</back>
+    </word>
+    <word>
+        <front>Thank you (polite)</front>
+        <back>ありがとう　ございます</back>
+    </word>
+    <word>
+        <front>Excuse me; I'm sorry</front>
+        <back>すみません</back>
+    </word>
+    <word>
+        <front>No; Not at all</front>
+        <back>いいえ</back>
+    </word>
+    <word>
+        <front>I'll go and come back</front>
+        <back>いってきます</back>
+    </word>
+    <word>
+        <front>Please go and come back</front>
+        <back>いってらっしゃい</back>
+    </word>
+    <word>
+        <front>I'm home</front>
+        <back>ただいま</back>
+    </word>
+    <word>
+        <front>Welcome home</front>
+        <back>おかえり{なさい}</back>
+    </word>
+    <word>
+        <front>Thank you for the meal (before eating)</front>
+        <back>いただきます</back>
+    </word>
+    <word>
+        <front>Thank you for the meal (after eating)</front>
+        <back>ごちそうさま{でした}</back>
+    </word>
+    <word>
+        <front>How do you do?</front>
+        <back>はじめまして</back>
+    </word>
+    <word>
+        <front>Nice to meet you</front>
+        <back>よろしく　おねがいします</back>
+    </word>
+</set>
