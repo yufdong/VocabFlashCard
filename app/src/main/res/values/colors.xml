@@ -9,4 +9,5 @@
     <color name="listItemImpact">#cfcbcb</color>
     <color name="transparent">#00000000</color>
     <color name="editIcon">#808080</color>
+    <color name="memorizeSelected">#15000000</color>
 </resources>

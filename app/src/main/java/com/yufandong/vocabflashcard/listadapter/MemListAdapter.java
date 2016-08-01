@@ -13,9 +13,6 @@ import com.yufandong.vocabflashcard.model.WordCard;
 
 import java.util.List;
 
-/**
- * Created by YuFan on 3/29/16.
- */
 public class MemListAdapter extends BaseAdapter {
 
     private static final int NUM_TYPES = 2;
@@ -74,7 +71,7 @@ public class MemListAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         int type = getItemViewType(position);
 
-        switch(type) {
+        switch (type) {
             case TYPE_TOGGLE:
                 convertView = getToggleView(convertView, parent);
                 break;
@@ -145,32 +142,21 @@ public class MemListAdapter extends BaseAdapter {
 
             textViewHolder = new TextViewHolder();
             textViewHolder.container = convertView.findViewById(R.id.vocab_list);
-            textViewHolder.front = (TextView) convertView.findViewById(R.id.frontText);
-            textViewHolder.back = (TextView) convertView.findViewById(R.id.backText);
+            textViewHolder.text = (TextView) convertView.findViewById(R.id.memorizeListText);
             convertView.setTag(textViewHolder);
         }
         else {
             textViewHolder = (TextViewHolder) convertView.getTag();
         }
 
-        if (showFront) {
-            textViewHolder.front.setText(list.get(index).getWord().getFront());
-            if (list.get(index).isReveal()) {
-                textViewHolder.back.setText(list.get(index).getWord().getBack());
-            }
-            else {
-                textViewHolder.back.setText("");
-                textViewHolder.container.setSelected(false);
-            }
+        // Show front if word card is facing front and not revealing or if word card is facing back and is revealed
+        if (showFront ^ list.get(index).isReveal()) {
+            textViewHolder.text.setText(list.get(index).getWord().getFront());
+            textViewHolder.text.setBackgroundColor(context.getResources().getColor(R.color.transparent));
         }
         else {
-            textViewHolder.back.setText(list.get(index).getWord().getBack());
-            if (list.get(index).isReveal()) {
-                textViewHolder.front.setText(list.get(index).getWord().getFront());
-            }
-            else {
-                textViewHolder.front.setText("");
-            }
+            textViewHolder.text.setText(list.get(index).getWord().getBack());
+            textViewHolder.text.setBackgroundColor(context.getResources().getColor(R.color.memorizeSelected));
         }
 
         return convertView;
@@ -178,13 +164,11 @@ public class MemListAdapter extends BaseAdapter {
 
     static class TextViewHolder {
         View container;
-        TextView front;
-        TextView back;
+        TextView text;
     }
 
     static class ToggleViewHolder {
         Button front;
         Button back;
     }
-
 }
