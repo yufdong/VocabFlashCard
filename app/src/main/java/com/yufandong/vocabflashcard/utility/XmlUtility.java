@@ -1,10 +1,10 @@
-package com.yufandong.vocabflashcard.data;
+package com.yufandong.vocabflashcard.utility;
 
 import android.content.Context;
 import android.util.Xml;
 
 import com.yufandong.vocabflashcard.model.VocabSet;
-import com.yufandong.vocabflashcard.model.Word;
+import com.yufandong.vocabflashcard.model.Flashcard;
 
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
@@ -13,12 +13,11 @@ import java.io.IOException;
 import java.io.InputStream;
 
 /**
- * Created by YuFan on 3/29/16.
+ * Helper class for parsing XML files into VocabSets
  */
-public class XMLUtility {
+public class XmlUtility {
 
     private static final String ns = null;
-
 
     public static VocabSet parse(int resId, Context context) throws XmlPullParserException, IOException {
         InputStream inputStream = null;
@@ -35,7 +34,6 @@ public class XMLUtility {
             if(inputStream != null)
                 inputStream.close();
         }
-
     }
 
     private static VocabSet readFeed(XmlPullParser parser) throws XmlPullParserException, IOException {
@@ -62,7 +60,7 @@ public class XMLUtility {
 
     }
 
-    private static Word readEntry(XmlPullParser parser) throws XmlPullParserException, IOException {
+    private static Flashcard readEntry(XmlPullParser parser) throws XmlPullParserException, IOException {
         parser.require(XmlPullParser.START_TAG, ns, "word");
         String front = null;
         String back = null;
@@ -85,10 +83,10 @@ public class XMLUtility {
                 skip(parser);
             }
         }
-        Word newWord = new Word();
-        newWord.setFront(front);
-        newWord.setBack(back);
-        return newWord;
+        Flashcard newFlashcard = new Flashcard();
+        newFlashcard.setFront(front);
+        newFlashcard.setBack(back);
+        return newFlashcard;
     }
 
     private static String readText(XmlPullParser parser) throws IOException, XmlPullParserException {

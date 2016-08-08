@@ -11,25 +11,24 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.yufandong.vocabflashcard.R;
-import com.yufandong.vocabflashcard.model.Word;
+import com.yufandong.vocabflashcard.model.Flashcard;
 
-public class EditWordDialogFragment extends DialogFragment {
+public class EditFlashcardDialogFragment extends DialogFragment {
 
-    public static final String WORD_KEY = "savedWord";
+    public static final String FLASH_ARD_KEY = "savedFlashcard";
 
-    private Word word;
+    private static final String TITLE = "Edit Flashcard";
+
+    private Flashcard flashcard;
     private Activity activity;
     private EditText frontEdit;
     private EditText backEdit;
 
-    public static EditWordDialogFragment newInstance(Word word) {
-
+    public static EditFlashcardDialogFragment newInstance(Flashcard flashcard) {
         Bundle args  = new Bundle();
-
-        EditWordDialogFragment fragment = new EditWordDialogFragment();
-        args.putSerializable(EditWordDialogFragment.WORD_KEY, word);
+        EditFlashcardDialogFragment fragment = new EditFlashcardDialogFragment();
+        args.putSerializable(EditFlashcardDialogFragment.FLASH_ARD_KEY, flashcard);
         fragment.setArguments(args);
-
         return fragment;
     }
 
@@ -38,24 +37,15 @@ public class EditWordDialogFragment extends DialogFragment {
         super.onCreateDialog(savedInstance);
         activity = getActivity();
         Bundle bundle = getArguments();
-        word = (Word) bundle.getSerializable(WORD_KEY);
-
-        LayoutInflater inflater = activity.getLayoutInflater();
-        View dialogView = inflater.inflate(R.layout.dialog_edit_word, null);
-        frontEdit = (EditText) dialogView.findViewById(R.id.frontEdit);
-        backEdit = (EditText) dialogView.findViewById(R.id.backEdit);
-        frontEdit.setText(word.getFront());
-        backEdit.setText(word.getBack());
+        flashcard = (Flashcard) bundle.getSerializable(FLASH_ARD_KEY);
 
         AlertDialog.Builder builder = new AlertDialog.Builder(activity);
-        builder.setView(dialogView)
-                .setTitle("Edit Word")
+        builder.setView(createDialogView())
+                .setTitle(TITLE)
                 .setIcon(activity.getResources().getDrawable(R.drawable.edit_icon))
                 .setPositiveButton("Save", new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
-                        word.setFront(frontEdit.getText().toString());
-                        word.setBack(backEdit.getText().toString());
-                        ((DialogCallback) activity).updateWord(word);
+                        saveFlashcard();
                         dialog.dismiss();
                     }
                 })
@@ -65,11 +55,26 @@ public class EditWordDialogFragment extends DialogFragment {
                     }
                 });
 
-
         return builder.create();
     }
 
+    private View createDialogView() {
+        LayoutInflater inflater = activity.getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.dialog_edit_flashcard, null);
+        frontEdit = (EditText) dialogView.findViewById(R.id.frontEdit);
+        backEdit = (EditText) dialogView.findViewById(R.id.backEdit);
+        frontEdit.setText(flashcard.getFront());
+        backEdit.setText(flashcard.getBack());
+        return dialogView;
+    }
+
+    private void saveFlashcard() {
+        flashcard.setFront(frontEdit.getText().toString());
+        flashcard.setBack(backEdit.getText().toString());
+        ((DialogCallback) activity).updateFlashcard(flashcard);
+    }
+
     public interface DialogCallback {
-        void updateWord(Word word);
+        void updateFlashcard(Flashcard flashcard);
     }
 }

@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
-            android:name=".activity.SetPickerActivity"
+            android:name=".activity.VocabSetPickerActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" >
@@ -26,13 +26,13 @@
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
-            android:name=".activity.SetEditActivity"
+            android:name=".activity.EditFlashcardsActivity"
             android:label="@string/title_activity_set_edit"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" >
         </activity>
         <activity
-            android:name=".activity.TextInputActivity"
+            android:name=".activity.VocabQuizActivity"
             android:label="@string/title_activity_text_input"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>

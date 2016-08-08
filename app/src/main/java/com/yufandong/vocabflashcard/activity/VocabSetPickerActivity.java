@@ -6,19 +6,19 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.yufandong.vocabflashcard.data.DBUtility;
 import com.yufandong.vocabflashcard.R;
-import com.yufandong.vocabflashcard.listadapter.SetPickerListAdapter;
+import com.yufandong.vocabflashcard.data.DatabaseManager;
+import com.yufandong.vocabflashcard.exception.DatabaseInsertException;
+import com.yufandong.vocabflashcard.listadapter.VocabSetPickerListAdapter;
 import com.yufandong.vocabflashcard.model.VocabSet;
-import com.yufandong.vocabflashcard.data.XMLUtility;
+import com.yufandong.vocabflashcard.utility.XmlUtility;
 
 import org.xmlpull.v1.XmlPullParserException;
 
@@ -27,67 +27,54 @@ import java.lang.reflect.Field;
 import java.util.List;
 
 /**
- * Starting activity that displays a list of vocab sets the user can choose or edit.
+ * Starting activity that displays a list of vocab sets the user can choose to start memorizing or to edit.
  */
-public class SetPickerActivity extends AppCompatActivity {
+public class VocabSetPickerActivity extends AppCompatActivity {
 
-    private List<VocabSet> setLists;
+    private Activity activity;
+    private List<VocabSet> vocabSetList;
     private ListView listView;
-    private Activity context;
-    private DBUtility dbUtility;
-    private SetPickerListAdapter listAdapter;
+    private DatabaseManager databaseManager;
+    private VocabSetPickerListAdapter listAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        context = this;
-        setContentView(R.layout.activity_set_picker);
+        setContentView(R.layout.activity_vocab_set_picker);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        activity = this;
 
-        dbUtility = new DBUtility(this);
-
-        setLists = dbUtility.getAllVocabSet();
-
-        createListView();
-
+        databaseManager = new DatabaseManager(this);
+        vocabSetList = databaseManager.getAllVocabSets();
+        setupListView();
     }
 
     private void popSets(int rid) {
         try {
-            VocabSet set = XMLUtility.parse(rid, context);
+            VocabSet set = XmlUtility.parse(rid, activity);
             if(set != null) {
-                dbUtility.addVocabSet(set);
+                databaseManager.addVocabSet(set);
             }
         } catch (IOException | XmlPullParserException e) {
-            Log.e("ERROR", this.getClass().getSimpleName(), e);
+            Log.e(this.getClass().getSimpleName(), "Exception occurred while parsing XML.", e);
+        } catch (DatabaseInsertException e) {
+            Log.e(this.getClass().getSimpleName(), "Exception occurred while adding words from XML to database.", e);
+            Toast.makeText(this, "ERROR: Cannot Insert to Database", Toast.LENGTH_SHORT).show();
         }
-
-
-//        if(setLists != null) {
-//            for (VocabSet set : setLists) {
-//                Log.d("VOCAB_LIST", set.name);
-//                for (Word word : set.list) {
-//                    Log.d("VOCAB_LIST", word.front + " : " + word.back);
-//                }
-//            }
-//        }
-//        else {
-//            Log.d("VOCAB_LIST", "Set is empty");
-//        }
     }
 
-    private void createListView() {
+    private void setupListView() {
         listView = (ListView) findViewById(R.id.setList);
 
-        listAdapter = new SetPickerListAdapter(this, setLists);
+        listAdapter = new VocabSetPickerListAdapter(this, vocabSetList);
         listView.setAdapter(listAdapter);
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                VocabSet selectedSet = setLists.get(position);
-                Intent intent = new Intent(context, MemorizeActivity.class);
+                VocabSet selectedSet = vocabSetList.get(position);
+                Intent intent = new Intent(activity, MemorizeActivity.class);
                 intent.putExtra(MemorizeActivity.SET_ID_KEY, selectedSet.getId());
                 startActivity(intent);
             }
@@ -118,7 +105,7 @@ public class SetPickerActivity extends AppCompatActivity {
                     try {
                         resArray[i] = ID_Fields[i].getInt(null);
                     } catch (IllegalArgumentException | IllegalAccessException e) {
-                        Log.e("ERROR", this.getClass().getSimpleName(), e);
+                        Log.e(this.getClass().getSimpleName(), "Exception while trying to access XML files", e);
                     }
                 }
                 for(int i = 0; i < resArray.length; i++) {
@@ -127,14 +114,14 @@ public class SetPickerActivity extends AppCompatActivity {
                     }
                 }
 
-                setLists = dbUtility.getAllVocabSet();
-                createListView();
+                vocabSetList = databaseManager.getAllVocabSets();
+                setupListView();
 
                 return true;
             case R.id.action_reset:
-                dbUtility.resetDatabase();
-                setLists = dbUtility.getAllVocabSet();
-                createListView();
+                databaseManager.resetDatabase();
+                vocabSetList = databaseManager.getAllVocabSets();
+                setupListView();
                 return true;
         }
 

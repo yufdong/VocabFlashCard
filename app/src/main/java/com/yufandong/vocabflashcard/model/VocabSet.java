@@ -5,11 +5,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by YuFan on 3/29/16.
+ * Model for a vocab set. Contains an ID, name and a list of Flashcard.
  */
 public class VocabSet implements Serializable{
 
-    private List<Word> list;
+    private List<Flashcard> list;
     private String name;
     private long id;
 
@@ -17,7 +17,7 @@ public class VocabSet implements Serializable{
         list = new ArrayList<>();
     }
 
-    public List<Word> getList() {
+    public List<Flashcard> getList() {
         return list;
     }
 

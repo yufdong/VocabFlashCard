@@ -3,9 +3,9 @@ package com.yufandong.vocabflashcard.model;
 import java.io.Serializable;
 
 /**
- * Created by YuFan on 3/29/16.
+ * A Flashcard with a word on the "front" of the card and a word on the "back". Also contains an ID.
  */
-public class Word implements Serializable {
+public class Flashcard implements Serializable {
     private long id;
     private String front;
     private String back;
